@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /*Adds gradient background to the whole page*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,95,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.content{
+    /*Registration form container*/
+    width: 500px;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 400px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    background-color: aliceblue;
+}
+
+.display-5{
+    /*Align title to center*/
+    text-align: center;
+}
+
+.form-group{
+    /*Alignemnt of contents in the registration form container*/
+    margin-left: 40px;
+    width: 400px;
+}
+
+.button{
+    /*Align Button text to center*/
+    text-align: center;
+}
+
+label{
+    /*Labels are colored white*/
+    color: black;
+}
